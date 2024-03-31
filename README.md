@@ -329,27 +329,28 @@ Functioning desire result:
 
 This is how it will work in Raspberry Pi:
 <p align="center">
-<img src="media/11.png" width="60%">
+<img src="media/7.png" width="60%">
 </p>
 
+In the Arduino will look like this:
 
 <p align="center">
-<img src="media/9.gif">
+<img src="media/8.gif">
 </p>
 
-It should look like this one is succesfully working:
+It should look like this one is succesfully connected and working:
 
 <p align="center">
-<img src="media/12.png">
+<img src="media/9.png">
 </p>
 
 
-[Arduino and Raspberry](https://medium.com/@lalodatos/applications-with-raspberry-pi-and-arduino-using-mqtt-b6594c29aed8)
+## [Arduino and Raspberry](https://medium.com/@lalodatos/applications-with-raspberry-pi-and-arduino-using-mqtt-b6594c29aed8)
 
 With all the elements the final structure of the project is like this:
 
 <p align="center">
-<img src="media/14.png">
+<img src="media/10.png">
 </p>
 
 Now it's time to go back to the Raspberry Pi env we created before we need to put the code folder in that folder containing all the elements from this repo and run to obtain the file with the first records.
