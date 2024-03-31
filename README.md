@@ -405,12 +405,12 @@ And the ERD look like this as a first version:
 After this I run the code and I get this file:
 
 <p align="center">
-<img src="media/16.png">
+<img src="media/14.png">
 </p>
 
 After using the streamlit app I upload the file and in the S3 bucket look like this:
 <p align="center">
-<img src="media/16.png">
+<img src="media/15.png">
 </p>
 
 After there is possible to run the following tutorial to start working with a workflow of data in AWS
