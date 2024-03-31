@@ -329,12 +329,12 @@ Functioning desire result:
 <img src="media/5.png" width="60%">
 </p>
 
-This is how it will work in Raspberry Pi:
+This is how it will work in Raspberry Pi with the code [read_data_ard.py](https://github.com/fullmakeralchemist/dataengweather/blob/master/read_data_ard.py):
 <p align="center">
 <img src="media/7.png" width="60%">
 </p>
 
-In the Arduino will look like this:
+In the Arduino will look like this with the code [opla_sensors_mqtt_deng](https://github.com/fullmakeralchemist/dataengweather/tree/master/opla_sensors_mqtt_deng):
 
 <p align="center">
 <img src="media/8.gif">
@@ -357,7 +357,7 @@ With all the elements the final structure of the project is like this:
 
 Now it's time to go back to the Raspberry Pi env we created before we need to put the code folder in that folder containing all the elements from this repo and run to obtain the file with the first records.
 
-Also to run the code change the broker number for the IP from the Raspberry Pi in the app.py
+Also to run the code change the broker number for the IP from the Raspberry Pi in the [app.py](https://github.com/fullmakeralchemist/dataengweather/blob/master/app.py)
 
 It's time to run in Raspberry Pi:
 
@@ -368,7 +368,7 @@ streamlit run app.py
 Once you run it it should look like this:
 
 <p align="center">
-<img src="media/11.gif">
+<img src="media/11.png">
 </p>
 
 When the app will upload a flle will look like this:
@@ -377,7 +377,7 @@ When the app will upload a flle will look like this:
 <img src="media/12.png">
 </p>
 
-Another option is save data in SD card in the Opla Kit that is an available option to avoid using communication protocol, is the scenario that a sensor is located is a place that is not available for communication protocols can be used a battery and a sd card to collect the data and upload in specific periods of time.
+Another option is save data in SD card in the Opla Kit that is an available option to avoid using communication protocol, is the scenario that a sensor is located is a place that is not available for communication protocols can be used a battery and a sd card to collect the data and upload in specific periods of time. (Will add this code later)
 
 ## Database Design
 ### Entity-Relationship Diagram (ERD)
@@ -413,15 +413,13 @@ After using the streamlit app I upload the file and in the S3 bucket look like t
 <img src="media/15.png">
 </p>
 
-After there is possible to run the following tutorial [following tutorial](https://github.com/fullmakeralchemist/dataengweather/blob/master/pdf/DE%20Documentacion%20flujo%20csv%20AWS.pdf) to start working with a workflow of data in AWS
+## Tutorial of how to setup to create a Lake House in AWS
 
-Challenges I ran into and What I learned
-One of the main challenges was finding how to send data from Arduino directly to AWS. As such, there is no documentation about it. Currently, the only option available is using one intermediary as it is Raspberry Pi to use it as a channel of obtaining the data automatically but it has a cost getting one and setting it.
+I didn't have enough time to add this documentation to the repo but here is the pdf version:
 
-The second main challenge was how many data variables can we read on an Arduino card since only few cards have the capacity to read specific sensors, these cards mostly do not have the necessary sensors to read the necessary pressure, humidity and temperature data. In addition, they only have Bluetooth communication, which makes communication with Streamlit difficult.
+Run the following tutorial [following tutorial](https://github.com/fullmakeralchemist/dataengweather/blob/master/pdf/DE%20Documentacion%20flujo%20csv%20AWS.pdf) to start working with a workflow of data in AWS.
 
-Finally, this is the first time I've used AWS API with Streamlit. In the end, I learned that whenever you may think that you found no way out, motivation can help you find alternative solutions with these resources.
-
+The code of the Lambda function can be found in [lambda.py](https://github.com/fullmakeralchemist/dataengweather/blob/master/lambda.py)
 
 ## Challenges I ran into and What I learned
 
