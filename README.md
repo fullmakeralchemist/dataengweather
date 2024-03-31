@@ -372,7 +372,7 @@ Once you run it it should look like this:
 When the app will upload a flle will look like this:
 
 <p align="center">
-<img src="media/16.png">
+<img src="media/12.png">
 </p>
 
 Another option is save data in SD card in the Opla Kit that is an available option to avoid using communication protocol, is the scenario that a sensor is located is a place that is not available for communication protocols can be used a battery and a sd card to collect the data and upload in specific periods of time.
@@ -395,8 +395,9 @@ Each location can have multiple sites, but each site belongs to only one locatio
 Each user can upload or access multiple pieces of data, but each piece of data is associated with only one user (one-to-many relationship between Users and Data).
 Each piece of data stored in the Data entity is associated with exactly one entry in the Data_Repository, representing where the data is stored (one-to-one relationship between Data and Data_Repository).
 And the ERD look like this as a first version: 
+
 <p align="center">
-<img src="media/16.png">
+<img src="media/13.png">
 </p>
 
 After this I run the code and I get this file:
