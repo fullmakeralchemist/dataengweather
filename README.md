@@ -355,18 +355,18 @@ With all the elements the final structure of the project is like this:
 
 Now it's time to go back to the Raspberry Pi env we created before we need to put the code folder in that folder containing all the elements from this repo and run to obtain the file with the first records.
 
-Also to run the code change the broker number for the IP from the Raspberry Pi in the Weather_Prediction.py
+Also to run the code change the broker number for the IP from the Raspberry Pi in the app.py
 
 It's time to run in Raspberry Pi:
 
 ```
-streamlit run Weather_Prediction.py
+streamlit run app.py
 ```
 
 Once you run it it should look like this:
 
 <p align="center">
-<img src="media/15.gif">
+<img src="media/11.gif">
 </p>
 
 When the app will upload a flle will look like this:
