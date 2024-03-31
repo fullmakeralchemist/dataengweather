@@ -413,7 +413,7 @@ After using the streamlit app I upload the file and in the S3 bucket look like t
 <img src="media/15.png">
 </p>
 
-After there is possible to run the following tutorial to start working with a workflow of data in AWS
+After there is possible to run the following tutorial [following tutorial](https://github.com/fullmakeralchemist/dataengweather/blob/master/pdf/DE%20Documentacion%20flujo%20csv%20AWS.pdf) to start working with a workflow of data in AWS
 
 Challenges I ran into and What I learned
 One of the main challenges was finding how to send data from Arduino directly to AWS. As such, there is no documentation about it. Currently, the only option available is using one intermediary as it is Raspberry Pi to use it as a channel of obtaining the data automatically but it has a cost getting one and setting it.
