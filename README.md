@@ -42,7 +42,7 @@
   
   <!-- <h3 align="center">Tiny ML in Mapping Dance, Visual Arts and interactive museums</h3>-->
   <p align="center">
-    <h2>:warning: No se gasto dinero en nube y hay un pdf de explicacion de uso en AWS gracias por la atencion  :warning: -------></h2>
+    <h2>:warning: No se gasto dinero en nube y hay un pdf de explicacion de uso en AWS :warning:</h2>
     <h3>Demo de la app para subir csvs en Streamlit Share -------></h3>
     <br />
     <a href="https://subirs3.streamlit.app/"><strong>Proyecto Dashboard»</strong></a>
@@ -447,7 +447,7 @@ The data set is just for temperature, pressure and humidity is necessary to do i
 - Create an app using Streamlit.
 - Start creating a tool that will help others.
 
-## What's next for Hands Spelling Recognition with Object detection
+## What's next for Weather Data Collection
 
 - Find more options to send data from Arduino to AWS
 - Obtain more information and, if possible, include more variables and sensors.
