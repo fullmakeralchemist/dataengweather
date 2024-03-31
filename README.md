@@ -324,7 +324,7 @@ A key feature of the Streamlit app will be the ability to save the collected dat
 
 Functioning desire result:
 <p align="center">
-<img src="media/10.png" width="60%">
+<img src="media/5.png" width="60%">
 </p>
 
 This is how it will work in Raspberry Pi:
