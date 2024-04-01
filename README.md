@@ -42,7 +42,7 @@
   
   <!-- <h3 align="center">Tiny ML in Mapping Dance, Visual Arts and interactive museums</h3>-->
   <p align="center">
-    <h2>:warning: No se gasto dinero en nube y hay un pdf de tecnico de uso en AWS :warning:</h2>
+    <h2>:warning: No se gasto dinero en nube y hay un pdf tecnico de uso en AWS :warning:</h2>
     <h3>Demo de la app para subir csvs en Streamlit Share -------></h3>
     <br />
     <a href="https://subirs3.streamlit.app/"><strong>Proyecto Dashboard»</strong></a>
