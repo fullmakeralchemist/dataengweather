@@ -27,10 +27,10 @@
   <br />
   
 
-  <img src="https://img.shields.io/github/languages/top/fullmakeralchemist/handsspelling?style=for-the-badge" alt="License" height="25">
-  <img src="https://img.shields.io/github/repo-size/fullmakeralchemist/handsspelling?style=for-the-badge" alt="GitHub repo size" height="25">
-  <img src="https://img.shields.io/github/last-commit/fullmakeralchemist/handsspelling?style=for-the-badge" alt="GitHub last commit" height="25">
-  <img src="https://img.shields.io/github/license/fullmakeralchemist/handsspelling?style=for-the-badge" alt="License" height="25">
+  <img src="https://img.shields.io/github/languages/top/fullmakeralchemist/dataengweather?style=for-the-badge" alt="License" height="25">
+  <img src="https://img.shields.io/github/repo-size/fullmakeralchemist/dataengweather?style=for-the-badge" alt="GitHub repo size" height="25">
+  <img src="https://img.shields.io/github/last-commit/fullmakeralchemist/dataengweather?style=for-the-badge" alt="GitHub last commit" height="25">
+  <img src="https://img.shields.io/github/license/fullmakeralchemist/dataengweather?style=for-the-badge" alt="License" height="25">
   <a href="https://www.linkedin.com/in/padrondata/">
     <img src="https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555" alt="LinkedIn" height="25">
   </a>
